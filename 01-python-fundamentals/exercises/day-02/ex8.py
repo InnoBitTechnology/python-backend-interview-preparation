@@ -1,7 +1,8 @@
 #primnumber:
 num = int(input())
 prime = True
-for i in range (1, num//2):
+n = num//2
+for i in range (2, n+1):
     if num % i == 0:
         prime = False
 if prime:
