@@ -13,4 +13,4 @@ else:
     print(dup)
 
 #Time: o(n)
-#space: o(n)
+#Space: o(n)
