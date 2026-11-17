@@ -81,6 +81,15 @@ def exe9():
     a,b = b,a
     print(a, b)
 
+'''
+Exercise 10 — Important
+Predict:
+print(bool(0))
+print(bool(1))
+print(bool(""))
+print(bool("Python"))
+print(bool(None))'''
+
 if __name__ == "__main__":
     main()
     exercise1()
