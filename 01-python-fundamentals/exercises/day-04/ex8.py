@@ -1,2 +1,9 @@
 text = "programming"
-print((str(set(text))))
+newtxt = ""
+for ch in text:
+    if ch in newtxt:
+        continue
+    else:
+        newtxt += ch
+
+print(newtxt)
