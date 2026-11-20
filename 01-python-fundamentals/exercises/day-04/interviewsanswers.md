@@ -8,7 +8,7 @@ a: strip removes the which spaces from the starting and ending of the string.
 4.	What does [::-1] do?
 a: reverse the string. which simply means iterating from the end.
 5.	Why can string concatenation inside a loop be potentially expensive?
-a: inside a loop we are simply iterating each character of the string and then combining it which significatnly makes the complexity high.
+a: Repeated string concatenation in a loop can be inefficient because strings are immutable. Building a list and using "".join() is generally more efficient.
 6.	What is a frequency map?
 a: creating the dictionary having the occurance of each characters in a string.
 7.	Why is a dictionary useful for counting characters?
@@ -36,6 +36,9 @@ a: o(n)
 17.	Why is the optimized Two Sum solution O(n)?
 a: finding the difference of target and the index value and then checking in the remaining values.
 18.	What is the difference between O(n) time/O(n) space and O(n²) time/O(1) space?
-DSA Problem-Solvin
+a: time o(n) is iterating though loop, 0(n) storing all the elelement of data collection,
+
 19.	Explain the Best Time to Buy and Sell Stock approach.
+a: Scan the prices once while maintaining the minimum price seen so far. For each price, calculate the profit if we sell today and update the maximum profit. This gives O(n) time and O(1) space.
 20.	If an interviewer asks you to optimize an O(n²) solution, what should you look for?
+a: I would look for repeated work, unnecessary nested loops, and whether a data structure such as a set or dictionary can provide faster lookup. I would also consider sorting, two pointers, sliding window, prefix sums, or maintaining information while scanning the data once.
