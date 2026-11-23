@@ -7,4 +7,4 @@ class Employee:
         return cls.company
 
 
-print(Employee())
+print(Employee.get_company())
